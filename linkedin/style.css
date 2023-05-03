@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(230, 245, 247, 0.726);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_left img
+{
+object-fit: contain;
+height: 40px;
+margin-right: 10px;
+
+}
+.header{
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border: bottom 0.1px solid beige;
+    padding: 10px;
+    background-color:white;
+
+}
+.header_left
+{
+    display: flex;
+}
+.header_right
+{
+    display: flex;
+}
+.header_search
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: rgb(241, 233, 233);
+    background-color: rgb(240, 227, 227);
+}
+.header-option
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: rgb(103, 97, 97);
+    cursor: pointer;
+}
+.header-option:hover
+{
+color: black;
+}
+.header-option h3
+{
+font-size: 12px;
+margin-top: 10px;
+font-weight: 400;
+}
+.header-option_icon
+{
+margin: 5px;
+height: 20px;
+width: 20px;
+}
+/* body main */
+.main-body{
+    display: flex;
+    margin-top: 35px;
+    width: 75%;
+    padding-top: 20px;
+
+    margin:0 20px;
+}
+.sidebar{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar-top img
+{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(225, 221, 221);
+    border-bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: aliceblue;
+    padding-bottom: 10 px;
+}
+.sidebartop_avathar
+{
+    font-size: 40px;
+}
+.sidebar-middle
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1 px solid rgb(240, 233, 233) ;
+    background-color: rgb(250, 252, 253);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.middle
+{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.middle2
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.middle3
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content:left;
+}
+.sidebar-bottom
+{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bottom1
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.discover
+{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    color: bisque;
+}
+.sidebar-middle:hover
+{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.feed
+{
+    flex: 0.6;
+    margin: 0 20px;
+    
+}
+.inputform{
+    
+    background-color: white;
+    color: slategray;
+    padding: 10px;
+    border: solid rgb(228, 223, 223);
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+    
+}
+.inputform :hover
+{
+    background-color:rgb(249, 249, 208);
+    color: black;
+}
+.form
+{
+    display: flex;
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+.inputform-1
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.post-1
+{
+    border: solid rgb(247, 249, 252);
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: ;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.follow
+{
+    padding-left: 300px;
+}
+.post-1-wr img
+{
+    padding-top: 10px;
+object-fit:contain;
+width: 500px;
+}
+.post-1-wr
+{
+    border-bottom: solid rgb(243, 243, 210);
+    background-color: white;
+    padding: 10px;
+}
+.post-2
+{
+    border: solid rgb(247, 249, 252);
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: ;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.follow-1
+{
+    padding-left: 300px;
+}
+.post-2-wr img
+{
+    padding-top: 10px;
+object-fit:contain;
+width: 500px;
+}
+.post-2-wr
+{
+    border-bottom: solid rgb(243, 243, 210);
+    background-color: white;
+    padding: 10px;
+}
+.post-3
+{
+    border: solid rgb(247, 249, 252);
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: ;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.follow-3
+{
+    padding-left: 300px;
+}
+.post-3-wr img
+{
+    padding-top: 10px;
+object-fit:contain;
+width: 500px;
+}
+.post-3-wr
+{
+    border-bottom: solid rgb(243, 243, 210);
+    background-color: white;
+    padding: 10px;
+}
+.left-bar
+{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    height: fit-content;
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+}
+.LN
+{
+    background-color: white;
+    
+}
+.left-bar p1
+{
+    padding: 10px;
+    font-size: small;
+    color: gray;
+}
+.left-bar h3
+{
+padding-bottom: 10px;
+}
+.material-icons 
+{
+    size: 50px;
+}
+.photo
+{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px ;
+}
+.photo-1 img
+{
+    width: 70px;
+    height: 70px;
+}
+.photo-2 img
+{
+    width: 70px;
+    height: 70px;
+}
+.ad
+{
+    align-content: center;
+    padding: 10px;
+    border: solid rgb(228, 218, 218);
+    
+}
+.ad h5
+{
+    color: rgb(179, 169, 169);
+    text-align: center;
+}
+.but
+{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    padding-left: 70px;
+    
+}
+.but button
+{
+    font-size: 10px;
+    padding: 5px;
+    color: rgb(143, 143, 242);
+    border-radius: solid grey ;
+    
+}
+.header-option img
+{
+    width: 30px;
+    height: 30px;
+}
