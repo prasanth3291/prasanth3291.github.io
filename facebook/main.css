@@ -1,0 +1,94 @@
+.fs-0
+{
+    font-size: 4rem;
+}
+.fs-7
+{
+    font-size: 0.8rem;
+}
+.fs-8
+{
+    font-size: 0.6rem;
+}
+@media(min-width:62em)
+{
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+}
+@media(min-width:62em)
+ {
+    .mainstory
+    {
+        padding-left: 500px;
+    }
+    .form
+    {
+     
+        width: 500px;
+        position: relative;
+        left: 320;
+        
+    }
+    .post
+    {
+        position: relative;
+        left: 320px;
+        width: 500px;
+    }
+}
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+width: 100%;
+height: 100%;
+
+margin: 0;
+}
+.bg-grey{
+    background-color: rgb(245, 240, 240);
+}
+.nav__btn button:hover
+{
+    background: rgb(241, 236, 236)! important;
+}
+
+.nav__btn-active i
+{
+color: blue!important;
+}
+.nav__btn-active
+{
+    position: relative;
+}
+.nav__btn-active::before
+{
+    content: "";
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    transform: translatey(4.5px);
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid blue !important;
+
+}
+.scrollbar:hover
+{
+    overflow: auto !important;
+}
+.story:hover
+{
+    opacity: 0.8;
+}
